@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Original Dataset</h1>
+        <form action="/display-dataset" method="post" enctype="multipart/form-data">
+            <input type="file" id="dataset_folder" name="dataset_folder" webkitdirectory directory multiple required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
